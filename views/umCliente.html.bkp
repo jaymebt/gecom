@@ -1,0 +1,9 @@
+<html>
+    <head>
+        <title>Detalhes do cliente {{nome}}</title>
+    </head>
+    <body>
+        <h2>{{nome}}</h2>
+        <p>Código: {{codigo}}</p>
+    </body>
+</html>

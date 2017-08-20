@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Cadastro de Clientes</title>
+    </head>
+    <body>
+        <h2>
+            CADASTRO DO CLIENTE 
+        </h2>
+
+        <table frame = 'box' style="position:absolute;left:12px;top:59px;width:857px;height:18px;z-index:3;" id="Codigo">
+            <tr>
+                <td class="cell0" width='50px' align='center'>
+                    <span style="color:#000000;font-family:Arial;font-size:8px;line-height:8px;"> 
+                        Código
+                    </span>
+                </td>
+                <td class="cell1">
+                    <span style="color:#000000;font-family:Arial;font-size:8px;line-height:8px;"> 
+                        Nome Completo / Razão Social
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="cell0" align='center'>
+                    <span style="color:#000000;font-family:Arial;font-size:12px;line-height:12px;"> 
+                        {{codigo}}
+                    </span>
+                </td>
+                <td class="cell1">
+                    <span style="color:#000000;font-family:Arial;font-size:12px;line-height:12px;">
+                        {{nome}}
+                    </span>
+                </td>
+            </tr>
+        </table>
+
+        <table frame='box' style="position:absolute;left:12px;top:90px;width:856px;height:18px;z-index:2;" id="Endereco">
+            <tr>
+                <td colspan="2" class="cell0">
+                    <span style="color:#000000;font-family:arial;font-size:8px;line-height:8px;">
+                        Endereço
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="cell1">
+                    <span style="color:#000000;font-family:arial;font-size:12px;line-height:12px;"> 
+                    {{endereco}}
+                </span>
+            </td>
+            </tr>
+        </table>
+
+
+    </body>
+</html>

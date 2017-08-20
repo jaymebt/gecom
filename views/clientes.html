@@ -1,0 +1,17 @@
+<html>
+    <body>
+
+        <h1>
+            CADASTRO DE CLIENTES
+        </h1>
+
+        <ul>
+            {% for cliente in clientes %}
+            <li><a href="/cliente/{{cliente.codigo}}/editar">Editar</a>
+                <a href="/cliente/{{cliente.codigo}}/excluir">Excluir</a>
+                <a href="/cliente/{{cliente.codigo}}">{{cliente.nome}}</a>&nbsp;
+            </li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>

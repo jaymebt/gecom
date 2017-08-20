@@ -1,0 +1,18 @@
+{
+  "name": "greetings",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "debug": "node --nolazy --debug-brk=5858 app.js"
+  },
+  "dependencies": {
+    "body-parser": "1.17.2",
+    "express": "4.15.4",
+    "method-override": "^2.3.9",
+    "mysql": "2.14.1",
+    "nodemon": "^1.11.0",
+    "nunjucks": "3.0.1",
+    "tinymce": "^4.6.5"
+  }
+}
